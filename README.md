@@ -6,29 +6,32 @@ The frontend is built using HTML, CSS, and JavaScript, and the backend uses Node
 
 ## Features
 
-✅ User login using email ID
-✅ Subscribe to supported stock tickers (GOOG, TSLA, AMZN, META, NVDA)
-✅ Live stock prices update automatically every second — no page refresh required
-✅ Supports multiple users — each can subscribe to different stocks and receive updates asynchronously
+. User login using email ID
+
+. Subscribe to supported stock tickers (GOOG, TSLA, AMZN, META, NVDA)
+
+. Live stock prices update automatically every second — no page refresh required
+
+. Supports multiple users — each can subscribe to different stocks and receive updates asynchronously
 
 ## How to Run the Project Locally
-1️⃣ Clone the repository
+1️ Clone the repository
 git clone https://github.com/shradha11857/stock-broker-dashboard.git
 
-2️⃣ Open the project folder
+2️ Open the project folder
 cd stock-broker-dashboard
 
-3️⃣ Install dependencies
+3️ Install dependencies
 cd server
 npm install
 
-4️⃣ Start the server
+4️ Start the server
 node index.js
 
 
 Server will start on http://localhost:4000
 
-5️⃣ Run the frontend
+5️ Run the frontend
 
 Open the file client/index.html in your browser using Live Server or directly open it through VS Code.
 
@@ -51,3 +54,5 @@ Open the file client/index.html in your browser using Live Server or directly op
  Author
 
 Shradha Patil
+
+email- shradhapatil329@gmail.com
