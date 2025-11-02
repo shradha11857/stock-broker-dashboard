@@ -48,7 +48,7 @@ stock-broker-dashboard/
 
 4. Enter your email → Select desired stocks → Click Subscribe
 
-5 .Watch live stock prices update automatically every second!
+5. Watch live stock prices update automatically every second!
 
 ## Preview
 
