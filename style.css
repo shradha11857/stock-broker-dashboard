@@ -41,12 +41,12 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Align label and checkbox perfectly */
+
 .stock-option {
   display: flex;
-  align-items: center;         /* Vertical alignment fix */
-  justify-content: space-between; /* Space between label and box */
-  margin: 8px 0;               /* Equal vertical spacing */
+  align-items: center;         
+  justify-content: space-between; 
+  margin: 8px 0;               
   font-size: 16px;
 }
 
