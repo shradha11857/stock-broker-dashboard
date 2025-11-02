@@ -1,58 +1,66 @@
+## Stock Broker Client Web Dashboard
 
-## Description
-
-This project is a Stock Broker Client Web Dashboard that allows users to monitor live stock prices in real-time.
-The frontend is built using HTML, CSS, and JavaScript, and the backend uses Node.js, Express, and Socket.IO to provide live updates asynchronously.
+This project is a Stock Broker Client Web Dashboard created as part of the developer assessment.
+It allows users to log in, subscribe to supported stocks, and view live price updates every second — without refreshing the page.
+Built completely using HTML, CSS, and JavaScript, it demonstrates real-time stock monitoring simulation.
 
 ## Features
 
-. User login using email ID
+* Login using Email
 
-. Subscribe to supported stock tickers (GOOG, TSLA, AMZN, META, NVDA)
+* Subscribe to Supported Stocks: GOOG, TSLA, AMZN, META, NVDA
 
-. Live stock prices update automatically every second — no page refresh required
+* Live Stock Price Updates (auto-refresh every second using random values)
 
-. Supports multiple users — each can subscribe to different stocks and receive updates asynchronously
+* Independent Users — each user can subscribe to different stocks
 
-## How to Run the Project Locally
-1️ Clone the repository
-git clone https://github.com/shradha11857/stock-broker-dashboard.git
+* Responsive Layout with simple, clean UI
 
-2️ Open the project folder
-cd stock-broker-dashboard
+## Technologies Used
 
-3️ Install dependencies
-cd server
-npm install
+HTML5 – Structure and content
 
-4️ Start the server
-node index.js
+CSS3 – Styling and layout
 
+JavaScript (ES6) – Logic for dynamic and live updates
 
-Server will start on http://localhost:4000
+## Folder Structure
 
-5️ Run the frontend
+stock-broker-dashboard/
 
-Open the file client/index.html in your browser using Live Server or directly open it through VS Code.
+├── index.html        
 
-## Tech Stack
+├── style.css       
 
-. Frontend: HTML, CSS, JavaScript
+├── script.js       
 
-. Backend: Node.js, Express, Socket.IO
+└── README.md        
 
-. Communication: WebSockets (real-time updates)
+## How to Run
 
-## Output Preview
+1. Clone the repository or Download ZIP
 
-. User login screen
+   git clone https://github.com/shradha11857/stock-broker-dashboard.git
 
-. Stock selection and subscription
+2. Open the folder in VS Code or any code editor
 
-. Live price updates displayed dynamically
+3. Run the project using Live Server (or open index.html directly in your browser)
 
- Author
+4. Enter your email → Select desired stocks → Click Subscribe
+
+5 .Watch live stock prices update automatically every second!
+
+## Preview
+
+* Login Page
+
+* Stock Subscription Section
+
+* Live Stock Prices Dashboard
+
+## Developed By
 
 Shradha Patil
 
 email- shradhapatil329@gmail.com
+

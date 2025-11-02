@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Broker Client Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <div class="container" id="loginPage">
+    <h2>Stock Broker Login</h2>
+    <input type="email" id="email" placeholder="Enter your email" />
+    <button id="loginBtn">Login</button>
+  </div>
+
+  
+  <div class="container" id="dashboard" style="display: none;">
+    <h2 id="welcomeText"></h2>
+    <h3>Choose Stocks to Subscribe</h3>
+    
+    <div id="stockOptions">
+      <div class="stock-option"><label>GOOG</label><input type="checkbox" value="GOOG"></div>
+      <div class="stock-option"><label>TSLA</label><input type="checkbox" value="TSLA"></div>
+      <div class="stock-option"><label>AMZN</label><input type="checkbox" value="AMZN"></div>
+      <div class="stock-option"><label>META</label><input type="checkbox" value="META"></div>
+      <div class="stock-option"><label>NVDA</label><input type="checkbox" value="NVDA"></div>
+    </div>
+
+    <button id="subscribeBtn">Subscribe</button>
+
+    <h3 style="margin-top: 20px;">Live Stock Prices</h3>
+    <table>
+      <thead>
+        <tr><th>Stock</th><th>Price (₹)</th></tr>
+      </thead>
+      <tbody id="stockTable"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
